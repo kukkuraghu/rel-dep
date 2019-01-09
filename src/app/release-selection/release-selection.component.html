@@ -1,0 +1,8 @@
+<mat-form-field>
+	<mat-select placeholder="Select a Release" [(value)]="selected" (selectionChange)="releaseSelected()">
+		<mat-option value="option1">BHNNY</mat-option>
+		<mat-option value="option2">CCN-CMA</mat-option>
+		<mat-option value="option3">CCN-S2AY</mat-option>
+	</mat-select>
+</mat-form-field>
+<p>You selected: {{selected}}</p>
